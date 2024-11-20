@@ -1,0 +1,13 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "ONS API (October 2024) for UK population. Uses newer API format where we define an enitre 'URI' to that time series. We can find this by taking the URL endpoint of the series when viewed on the ONS website. E.g., this API pulls in data from this series: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/timeseries/ukpop/pop",
+  "data": {
+    "url": "https://api.beta.ons.gov.uk/v1/data?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/timeseries/ukpop/pop",
+    "format": {"property": "years"}
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"}
+  }
+}

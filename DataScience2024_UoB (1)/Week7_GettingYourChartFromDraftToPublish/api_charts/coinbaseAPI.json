@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Coinbase API example. Data is nested within 'data' then 'rates' keys. Then we have data in 'wide' format with each crypto its own column name, so we need to use a 'fold' transform on the crypto tickers we want. We define the new columns names using 'as'",
+      
+    "data": {
+      "url": "https://api.coinbase.com/v2/exchange-rates?currency=USD",
+      "format": {
+        "type": "json",
+        "property": "data.rates"
+      }
+    },
+  "transform": [
+    {
+      "fold": ["BTC", "AED", "00"],
+      "as": ["token", "value"]
+    }
+  ],
+ 
+
+    "mark": {
+      "type": "bar",
+      "color":"red"
+    },
+  
+    "width":350,
+    "height":350,
+    
+    "encoding": {
+      
+      "x": {
+        "field": "token"
+      },
+      
+      "y": {
+        "field": "value",
+        "type": "quantitative"
+      }
+    }
+  }

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/N-Oldroyd/N-Oldroyd.github.io/refs/heads/main/worldbank_data.json"
+  },
+  "width": 600,
+  "height": 300,
+  "params": [
+    {
+      "name": "Year",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "step": 1,
+        "min": 1975,
+        "max": 2022,
+        "name": "Min Price:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "lookup": "countryiso3code",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/N-Oldroyd/N-Oldroyd.github.io/refs/heads/main/map_world.geojson",
+          "format": {"property": "features"}
+        },
+        "key": "properties.ISO3",
+        "fields": ["type", "geometry", "properties"]
+      }
+    },
+    {"filter": "datum.date == Year"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "geoshape"},
+      "encoding": {"color": {"value": "lightgrey"}}
+    },
+    {"mark": {"type": "geoshape"}}
+  ],
+  "encoding": {"color": {"field": "value", "type": "quantitative"}}
+}
