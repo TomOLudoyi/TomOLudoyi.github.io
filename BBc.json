@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top ten non-UK countries of birth in 2021 and 2011",
+  "data": {
+    "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/BBC_3.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [{"fold": ["2011", "2021"], "as": ["Year", "Births"]}],
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Births",
+          "type": "quantitative",
+          "axis": {"title": "Births", "grid": true}
+        },
+        "y": {
+          "field": "Country",
+          "type": "nominal",
+          "sort": {"order": "descending"},
+          "axis": {"title": "Country"}
+        },
+        "color": {
+          "field": "Year",
+          "type": "nominal",
+          "scale": {
+            "domain": ["2021", "2011"],
+            "range": ["#4ba7bc", "#1f77b4"]
+          },
+          "legend": {"title": "Year"}
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 90,
+        "dy": 150,
+        "fontSize": 10,
+        "fontStyle": "italic"
+      },
+      "encoding": {"text": {"value": "Source: ONS census"}}
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 20,
+        "dy": 150,
+        "fontSize": 10,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {
+          "value": [
+            "Showing the number of residents of England",
+            "and Wales for each country in 2021 and 2011"
+          ]
+        }
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}, "axis": {"grid": false}}
+}
