@@ -1,0 +1,396 @@
+[
+    {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 24,
+        "sourceid": "2",
+        "lastupdated": "2024-11-13"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2022",
+            "value": 77.552,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2021",
+            "value": 77.439,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2020",
+            "value": 78.04,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2019",
+            "value": 78.368,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2018",
+            "value": 78.117,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2017",
+            "value": 77.8,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2016",
+            "value": 77.53,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2015",
+            "value": 77.101,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2014",
+            "value": 76.878,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2013",
+            "value": 76.637,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2012",
+            "value": 76.264,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2011",
+            "value": 75.805,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2010",
+            "value": 75.629,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2009",
+            "value": 75.903,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2008",
+            "value": 76.098,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2007",
+            "value": 75.824,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2006",
+            "value": 76.033,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2005",
+            "value": 75.658,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2004",
+            "value": 75.275,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2003",
+            "value": 75.305,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2002",
+            "value": 75.324,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2001",
+            "value": 75.195,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "GB",
+                "value": "United Kingdom"
+            },
+            "countryiso3code": "GBR",
+            "date": "2000",
+            "value": 75.557,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]

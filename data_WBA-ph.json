@@ -1,0 +1,396 @@
+[
+    {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 24,
+        "sourceid": "2",
+        "lastupdated": "2024-11-13"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2022",
+            "value": 61.725,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2021",
+            "value": 58.721,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2020",
+            "value": 56.914,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2019",
+            "value": 61.577,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2018",
+            "value": 61.074,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2017",
+            "value": 61.264,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2016",
+            "value": 63.517,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2015",
+            "value": 63.312,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2014",
+            "value": 64.12,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2013",
+            "value": 63.324,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2012",
+            "value": 63.585,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2011",
+            "value": 64.05,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2010",
+            "value": 63.128,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2009",
+            "value": 63.141,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2008",
+            "value": 62.715,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2007",
+            "value": 62.842,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2006",
+            "value": 63.032,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2005",
+            "value": 63.132,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2004",
+            "value": 63.076,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2003",
+            "value": 62.668,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2002",
+            "value": 62.78,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2001",
+            "value": 62.831,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "PH",
+                "value": "Philippines"
+            },
+            "countryiso3code": "PHL",
+            "date": "2000",
+            "value": 62.853,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]

@@ -1,0 +1,396 @@
+[
+    {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 24,
+        "sourceid": "2",
+        "lastupdated": "2024-11-13"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2022",
+            "value": 75.933,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2021",
+            "value": 75.839,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2020",
+            "value": 74.291,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2019",
+            "value": 75.389,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2018",
+            "value": 75.495,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2017",
+            "value": 75.712,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2016",
+            "value": 75.932,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2015",
+            "value": 76.067,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2014",
+            "value": 76.16,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2013",
+            "value": 76.275,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2012",
+            "value": 76.555,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2011",
+            "value": 76.878,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2010",
+            "value": 76.86,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2009",
+            "value": 77.395,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2008",
+            "value": 77.94,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2007",
+            "value": 78.483,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2006",
+            "value": 79.011,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2005",
+            "value": 79.544,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2004",
+            "value": 80.091,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2003",
+            "value": 80.619,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2002",
+            "value": 81.122,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2001",
+            "value": 81.601,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "CN",
+                "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2000",
+            "value": 82.051,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]
