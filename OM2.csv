@@ -1,8 +1,8 @@
 NOC,Medal Type,Count
-United States‡,Gold,40
+United States,Gold,40
 China,Gold,40
 Great Britain,Gold,14
-France*,Gold,16
+France,Gold,16
 Australia,Gold,18
 Japan,Gold,20
 Italy,Gold,12
@@ -14,10 +14,10 @@ New Zealand,Gold,10
 Brazil,Gold,3
 Hungary,Gold,6
 Spain,Gold,5
-United States‡,Silver,44
+United States,Silver,44
 China,Silver,27
 Great Britain,Silver,22
-France*,Silver,26
+France,Silver,26
 Australia,Silver,19
 Japan,Silver,12
 Italy,Silver,13
@@ -29,10 +29,10 @@ New Zealand,Silver,7
 Brazil,Silver,7
 Hungary,Silver,7
 Spain,Silver,4
-United States‡,Bronze,42
+United States,Bronze,42
 China,Bronze,24
 Great Britain,Bronze,29
-France*,Bronze,22
+France,Bronze,22
 Australia,Bronze,16
 Japan,Bronze,13
 Italy,Bronze,15
