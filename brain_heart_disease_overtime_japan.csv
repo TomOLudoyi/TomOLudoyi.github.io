@@ -1,0 +1,11 @@
+Category,Fiscal Year 2014 (Total Cases),Fiscal Year 2014 (Fatal Cases),Fiscal Year 2015 (Total Cases),Fiscal Year 2015 (Fatal Cases)
+Less than 45 hours,0,0,0,0
+45 to less than 60 hours,0,0,1,0
+60 to less than 80 hours,20,0,11,1
+80 to less than 100 hours,105,5,105,5
+100 to less than 120 hours,66,4,66,3
+120 to less than 140 hours,32,1,16,0
+140 to less than 160 hours,23,2,20,2
+Over 160 hours,20,3,18,0
+Others,11,0,14,0
+Total,277,15,251,11
