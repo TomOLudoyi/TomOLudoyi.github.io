@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "National Karoshi Hotline Calls, 1988 - 2007",
+  "data": {
+    "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/kad.csv"
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "axis": {"grid": false, "tickCount": 8}
+        },
+        "y": {
+          "field": "National",
+          "type": "quantitative",
+          "title": "Karoshi Calls",
+          "scale": {"domain": [0, 420]}
+        },
+        "tooltip": [
+          {"field": "National", "type": "quantitative", "title": "Calls:"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": -60,
+        "dy": 150,
+        "fontSize": 10,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value": "Source: Karoshi hotline national network"}
+      }
+    }
+  ],
+  "config": {}
+}

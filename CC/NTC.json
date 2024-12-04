@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Total Crimes Commited, '00 ",
+    "subtitle": ["Per state, 2022", "Source: Ministry of Police Affairs"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "width": 500,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/nigeria_geojson.geojson",
+    "format": {"type": "json", "property": "features"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.state",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/STc.csv"
+        },
+        "key": "state",
+        "fields": ["Total Crimes"]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 1},
+  "encoding": {
+    "color": {
+      "field": "Total Crimes",
+      "type": "quantitative",
+      "scale": {"scheme": "greens"}
+    },
+    "tooltip": [
+      {"field": "properties.state", "type": "nominal", "title": "State"},
+      {"field": "Total Crimes", "type": "quantitative", "title": "Total Crimes"}
+    ]
+  }
+}

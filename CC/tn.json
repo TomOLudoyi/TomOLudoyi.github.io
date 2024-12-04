@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Trend Between Total suicides and Work-Related Suicides, 1978-2022",
+  "data": {
+    "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/Tns.csv",
+    "format": {"type": "csv"}
+  },
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "x": {
+          "field": "Total Suicides",
+          "type": "quantitative",
+          "scale": {"domain": [19000, 35000]},
+          "axis": {"grid": true, "tickCount": 5},
+          "title": "Total Suicides"
+        },
+        "y": {
+          "field": "Suicides Caused by Work Problems",
+          "type": "quantitative",
+          "scale": {"domain": [750, 3050]},
+          "axis": {"grid": true, "tickCount": 6},
+          "title": "Work-Related Suicides"
+        },
+        "tooltip": [
+          {
+            "field": "Total Suicides",
+            "type": "quantitative",
+            "title": "Non-Scheduled Hours"
+          },
+          {
+            "field": "Suicides Caused by Work Problems",
+            "type": "quantitative",
+            "title": "Work Suicides"
+          },
+          {"field": "Year", "type": "nominal", "title": "Year:"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "red"},
+      "transform": [
+        {
+          "regression": "Suicides Caused by Work Problems",
+          "on": "Total Suicides"
+        }
+      ],
+      "encoding": {
+        "x": {"field": "Total Suicides", "type": "quantitative"},
+        "y": {
+          "field": "Suicides Caused by Work Problems",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 0,
+        "dy": 150,
+        "fontSize": 10,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value": "Source: Ministry of Health, Labour and Welfare"}
+      }
+    }
+  ],
+  "config": {}
+}

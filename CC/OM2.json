@@ -1,0 +1,139 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "layer": [
+    {
+      "data": {"name": "data-cb5d7a4404e4471286c19f4dcee69e9e"},
+      "mark": "arc",
+      "encoding": {
+        "color": {
+          "field": "Medal Type",
+          "scale": {
+            "domain": ["Gold", "Silver", "Bronze"],
+            "range": ["#FFD700", "#C0C0C0", "#CD7F32"]
+          },
+          "type": "nominal"
+        },
+        "theta": {"field": "Count", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Medal Type", "title": "Medal Type", "type": "nominal"},
+          {"field": "Count", "title": "Medals Won", "type": "quantitative"},
+          {"field": "Total", "title": "Total Medals", "type": "quantitative"}
+        ]
+      },
+      "selection": {
+        "Country": {
+          "type": "single",
+          "fields": ["NOC"],
+          "bind": {
+            "input": "select",
+            "options": [
+              "United States",
+              "China",
+              "Great Britain",
+              "France",
+              "Australia",
+              "Japan",
+              "Italy",
+              "Netherlands",
+              "Germany",
+              "South Korea",
+              "Canada",
+              "New Zealand",
+              "Brazil",
+              "Hungary",
+              "Spain"
+            ],
+            "name": "Country: "
+          }
+        }
+      },
+      "title": "Top 15 Countries' Medal Distribution",
+      "transform": [{"filter": {"selection": "Country"}}]
+    },
+    {
+      "data": {"name": "data-edb7c3ae1588259dcb8af48cca03b0ea"},
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 80,
+        "dy": 140,
+        "font": "italics",
+        "fontSize": 10
+      },
+      "encoding": {"text": {"field": "text", "type": "nominal"}}
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-cb5d7a4404e4471286c19f4dcee69e9e": [
+      {"NOC": "United States", "Medal Type": "Gold", "Count": 40, "Total": 126},
+      {"NOC": "China", "Medal Type": "Gold", "Count": 40, "Total": 91},
+      {"NOC": "Great Britain", "Medal Type": "Gold", "Count": 14, "Total": 65},
+      {"NOC": "France", "Medal Type": "Gold", "Count": 16, "Total": 64},
+      {"NOC": "Australia", "Medal Type": "Gold", "Count": 18, "Total": 53},
+      {"NOC": "Japan", "Medal Type": "Gold", "Count": 20, "Total": 45},
+      {"NOC": "Italy", "Medal Type": "Gold", "Count": 12, "Total": 40},
+      {"NOC": "Netherlands", "Medal Type": "Gold", "Count": 15, "Total": 34},
+      {"NOC": "Germany", "Medal Type": "Gold", "Count": 12, "Total": 33},
+      {"NOC": "South Korea", "Medal Type": "Gold", "Count": 13, "Total": 32},
+      {"NOC": "Canada", "Medal Type": "Gold", "Count": 9, "Total": 27},
+      {"NOC": "New Zealand", "Medal Type": "Gold", "Count": 10, "Total": 20},
+      {"NOC": "Brazil", "Medal Type": "Gold", "Count": 3, "Total": 20},
+      {"NOC": "Hungary", "Medal Type": "Gold", "Count": 6, "Total": 19},
+      {"NOC": "Spain", "Medal Type": "Gold", "Count": 5, "Total": 18},
+      {
+        "NOC": "United States",
+        "Medal Type": "Silver",
+        "Count": 44,
+        "Total": 126
+      },
+      {"NOC": "China", "Medal Type": "Silver", "Count": 27, "Total": 91},
+      {
+        "NOC": "Great Britain",
+        "Medal Type": "Silver",
+        "Count": 22,
+        "Total": 65
+      },
+      {"NOC": "France", "Medal Type": "Silver", "Count": 26, "Total": 64},
+      {"NOC": "Australia", "Medal Type": "Silver", "Count": 19, "Total": 53},
+      {"NOC": "Japan", "Medal Type": "Silver", "Count": 12, "Total": 45},
+      {"NOC": "Italy", "Medal Type": "Silver", "Count": 13, "Total": 40},
+      {"NOC": "Netherlands", "Medal Type": "Silver", "Count": 7, "Total": 34},
+      {"NOC": "Germany", "Medal Type": "Silver", "Count": 13, "Total": 33},
+      {"NOC": "South Korea", "Medal Type": "Silver", "Count": 9, "Total": 32},
+      {"NOC": "Canada", "Medal Type": "Silver", "Count": 7, "Total": 27},
+      {"NOC": "New Zealand", "Medal Type": "Silver", "Count": 7, "Total": 20},
+      {"NOC": "Brazil", "Medal Type": "Silver", "Count": 7, "Total": 20},
+      {"NOC": "Hungary", "Medal Type": "Silver", "Count": 7, "Total": 19},
+      {"NOC": "Spain", "Medal Type": "Silver", "Count": 4, "Total": 18},
+      {
+        "NOC": "United States",
+        "Medal Type": "Bronze",
+        "Count": 42,
+        "Total": 126
+      },
+      {"NOC": "China", "Medal Type": "Bronze", "Count": 24, "Total": 91},
+      {
+        "NOC": "Great Britain",
+        "Medal Type": "Bronze",
+        "Count": 29,
+        "Total": 65
+      },
+      {"NOC": "France", "Medal Type": "Bronze", "Count": 22, "Total": 64},
+      {"NOC": "Australia", "Medal Type": "Bronze", "Count": 16, "Total": 53},
+      {"NOC": "Japan", "Medal Type": "Bronze", "Count": 13, "Total": 45},
+      {"NOC": "Italy", "Medal Type": "Bronze", "Count": 15, "Total": 40},
+      {"NOC": "Netherlands", "Medal Type": "Bronze", "Count": 12, "Total": 34},
+      {"NOC": "Germany", "Medal Type": "Bronze", "Count": 8, "Total": 33},
+      {"NOC": "South Korea", "Medal Type": "Bronze", "Count": 10, "Total": 32},
+      {"NOC": "Canada", "Medal Type": "Bronze", "Count": 11, "Total": 27},
+      {"NOC": "New Zealand", "Medal Type": "Bronze", "Count": 3, "Total": 20},
+      {"NOC": "Brazil", "Medal Type": "Bronze", "Count": 10, "Total": 20},
+      {"NOC": "Hungary", "Medal Type": "Bronze", "Count": 6, "Total": 19},
+      {"NOC": "Spain", "Medal Type": "Bronze", "Count": 9, "Total": 18}
+    ],
+    "data-edb7c3ae1588259dcb8af48cca03b0ea": [
+      {"text": "Source: Olympics, Wikipedia"}
+    ]
+  }
+}

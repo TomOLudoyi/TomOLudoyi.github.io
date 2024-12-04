@@ -1,0 +1,116 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "layer": [
+    {
+      "data": {"name": "data-7abe81ee9fa06a7801990c0f8d2300a6"},
+      "mark": {"type": "line", "point": true},
+      "encoding": {
+        "tooltip": [
+          {"field": "Year", "type": "quantitative"},
+          {"field": "Participants", "type": "quantitative"}
+        ],
+        "x": {"field": "Year", "title": "Year", "type": "nominal"},
+        "y": {
+          "field": "Participants",
+          "title": "Participants",
+          "type": "quantitative"
+        }
+      },
+      "selection": {
+        "end_year": {
+          "type": "single",
+          "fields": ["Year"],
+          "bind": {
+            "input": "range",
+            "max": 2024,
+            "min": 1924,
+            "name": "End Year:",
+            "step": 4
+          },
+          "init": {"Year": 2024}
+        },
+        "start_year": {
+          "type": "single",
+          "fields": ["Year"],
+          "bind": {
+            "input": "range",
+            "max": 2024,
+            "min": 1924,
+            "name": "Start Year:",
+            "step": 4
+          },
+          "init": {"Year": 1924}
+        }
+      },
+      "title": "Number of Participants over a 100 year period",
+      "transform": [
+        {
+          "filter": "((datum.Year >= start_year.Year) && (datum.Year <= end_year.Year))"
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "data": {"name": "data-0d67070a348bd6a559753c3aec4d280e"},
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 35,
+            "dy": 210,
+            "font": "italics",
+            "fontSize": 12
+          },
+          "encoding": {"text": {"field": "text", "type": "nominal"}}
+        },
+        {
+          "data": {"name": "data-70ca7afdeea6880a464e86945ba13fc2"},
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -35,
+            "dy": 210,
+            "font": "italics",
+            "fontSize": 12
+          },
+          "encoding": {"text": {"field": "text", "type": "nominal"}}
+        }
+      ]
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-7abe81ee9fa06a7801990c0f8d2300a6": [
+      {"Year": 2022, "Participants": 2874},
+      {"Year": 2018, "Participants": 2833},
+      {"Year": 2014, "Participants": 2780},
+      {"Year": 2010, "Participants": 2536},
+      {"Year": 2006, "Participants": 2494},
+      {"Year": 2002, "Participants": 2402},
+      {"Year": 1998, "Participants": 2180},
+      {"Year": 1992, "Participants": 1801},
+      {"Year": 1994, "Participants": 1738},
+      {"Year": 1988, "Participants": 1424},
+      {"Year": 1984, "Participants": 1273},
+      {"Year": 1968, "Participants": 1160},
+      {"Year": 1976, "Participants": 1129},
+      {"Year": 1964, "Participants": 1094},
+      {"Year": 1980, "Participants": 1072},
+      {"Year": 1972, "Participants": 1008},
+      {"Year": 1956, "Participants": 821},
+      {"Year": 1952, "Participants": 694},
+      {"Year": 1948, "Participants": 668},
+      {"Year": 1936, "Participants": 668},
+      {"Year": 1960, "Participants": 665},
+      {"Year": 1928, "Participants": 461},
+      {"Year": 1924, "Participants": 292},
+      {"Year": 1932, "Participants": 252}
+    ],
+    "data-0d67070a348bd6a559753c3aec4d280e": [
+      {"text": "Source: Winter Olympics, Statista"}
+    ],
+    "data-70ca7afdeea6880a464e86945ba13fc2": [
+      {"text": "Note: No data for 1940 and 1944 due to WW2"}
+    ]
+  }
+}

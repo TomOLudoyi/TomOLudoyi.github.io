@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Comparing Labour Participation rates, Lpr, of 10 Countries",
+    "subtitle": [
+      "Labour Participation rates, 2000 - 2022, ",
+      "Source: World Bank API"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/Lpr2.csv"
+  },
+  "transform": [
+    {
+      "fold": [
+        "Canada",
+        "China",
+        "Germany",
+        "France",
+        "Japan",
+        "Italy",
+        "South Korea",
+        "Philippines",
+        "USA",
+        "United Kingdom"
+      ],
+      "as": ["country", "Participation rates"]
+    }
+  ],
+  "height": 120,
+  "width": 120,
+  "mark": {"type": "line", "strokeWidth": 2},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false, "tickCount": 5}
+    },
+    "y": {
+      "field": "Participation rates",
+      "type": "quantitative",
+      "scale": {"domain": [55, 85]},
+      "axis": {"grid": true, "tickCount": 5},
+      "title": "Lpr (%)"
+    },
+    "facet": {"field": "country", "columns": 5, "title": null}
+  },
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {}
+}

@@ -1,0 +1,244 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "field": "Total",
+          "scale": {"scheme": "reds"},
+          "title": "Total Cases",
+          "type": "quantitative"
+        },
+        "x": {
+          "axis": {"labelAngle": 0},
+          "field": "Year",
+          "title": "Fiscal Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Category",
+          "sort": [
+            "Less than 45 hours",
+            "45 to less than 60 hours",
+            "60 to less than 80 hours",
+            "80 to less than 100 hours",
+            "100 to less than 120 hours",
+            "120 to less than 140 hours",
+            "140 to less than 160 hours",
+            "Over 160 hours",
+            "Others",
+            "Total"
+          ],
+          "title": "Overtime Hours",
+          "type": "nominal"
+        }
+      },
+      "height": 400,
+      "title": "Heatmap of Total and Fatal Cases by Monthly Overtime hours, 2014 - 2015",
+      "width": 600
+    },
+    {
+      "mark": {"type": "text", "align": "center", "baseline": "middle"},
+      "encoding": {
+        "color": {"value": "black"},
+        "text": {"field": "Display", "type": "nominal"},
+        "tooltip": [
+          {"field": "Category", "type": "nominal"},
+          {"field": "Year", "type": "nominal"},
+          {"field": "Total", "type": "quantitative"},
+          {"field": "Fatal", "type": "quantitative"}
+        ],
+        "x": {
+          "axis": {"labelAngle": 0},
+          "field": "Year",
+          "title": "Fiscal Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Category",
+          "sort": [
+            "Less than 45 hours",
+            "45 to less than 60 hours",
+            "60 to less than 80 hours",
+            "80 to less than 100 hours",
+            "100 to less than 120 hours",
+            "120 to less than 140 hours",
+            "140 to less than 160 hours",
+            "Over 160 hours",
+            "Others",
+            "Total"
+          ],
+          "title": "Overtime Hours",
+          "type": "nominal"
+        }
+      },
+      "height": 400,
+      "title": "Heatmap of Total and Fatal Cases by Monthly Overtime hours, 2014 - 2015",
+      "width": 600
+    },
+    {
+      "data": {"name": "data-c42d423cb2d5e02fe8ae906392d7d919"},
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 120,
+        "dy": 240,
+        "font": "italics",
+        "fontSize": 10
+      },
+      "encoding": {"text": {"field": "text", "type": "nominal"}}
+    }
+  ],
+  "data": {"name": "data-ec862f3fd7095234a21870b914cb6dd7"},
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-ec862f3fd7095234a21870b914cb6dd7": [
+      {
+        "Category": "100 to less than 120 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 4,
+        "Total": 66,
+        "Display": "66 (4)"
+      },
+      {
+        "Category": "100 to less than 120 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 3,
+        "Total": 66,
+        "Display": "66 (3)"
+      },
+      {
+        "Category": "120 to less than 140 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 1,
+        "Total": 32,
+        "Display": "32 (1)"
+      },
+      {
+        "Category": "120 to less than 140 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 0,
+        "Total": 16,
+        "Display": "16 (0)"
+      },
+      {
+        "Category": "140 to less than 160 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 2,
+        "Total": 23,
+        "Display": "23 (2)"
+      },
+      {
+        "Category": "140 to less than 160 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 2,
+        "Total": 20,
+        "Display": "20 (2)"
+      },
+      {
+        "Category": "45 to less than 60 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 0,
+        "Total": 0,
+        "Display": "0 (0)"
+      },
+      {
+        "Category": "45 to less than 60 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 0,
+        "Total": 1,
+        "Display": "1 (0)"
+      },
+      {
+        "Category": "60 to less than 80 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 0,
+        "Total": 20,
+        "Display": "20 (0)"
+      },
+      {
+        "Category": "60 to less than 80 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 1,
+        "Total": 11,
+        "Display": "11 (1)"
+      },
+      {
+        "Category": "80 to less than 100 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 5,
+        "Total": 105,
+        "Display": "105 (5)"
+      },
+      {
+        "Category": "80 to less than 100 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 5,
+        "Total": 105,
+        "Display": "105 (5)"
+      },
+      {
+        "Category": "Less than 45 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 0,
+        "Total": 0,
+        "Display": "0 (0)"
+      },
+      {
+        "Category": "Less than 45 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 0,
+        "Total": 0,
+        "Display": "0 (0)"
+      },
+      {
+        "Category": "Others",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 0,
+        "Total": 11,
+        "Display": "11 (0)"
+      },
+      {
+        "Category": "Others",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 0,
+        "Total": 14,
+        "Display": "14 (0)"
+      },
+      {
+        "Category": "Over 160 hours",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 3,
+        "Total": 20,
+        "Display": "20 (3)"
+      },
+      {
+        "Category": "Over 160 hours",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 0,
+        "Total": 18,
+        "Display": "18 (0)"
+      },
+      {
+        "Category": "Total",
+        "Year": "Fiscal Year 2014",
+        "Fatal": 15,
+        "Total": 277,
+        "Display": "277 (15)"
+      },
+      {
+        "Category": "Total",
+        "Year": "Fiscal Year 2015",
+        "Fatal": 11,
+        "Total": 251,
+        "Display": "251 (11)"
+      }
+    ],
+    "data-c42d423cb2d5e02fe8ae906392d7d919": [
+      {
+        "text": "Source: Ministry\tof\tHealth,\tLabor\tand\tWelfare (2014 - 2015)"
+      }
+    ]
+  }
+}

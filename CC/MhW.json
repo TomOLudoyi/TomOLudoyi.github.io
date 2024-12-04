@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Mean hours worked weekly, MhW",
+  "description": "Multi-series Line Chart with separate lines for Japan, South Korea, and the Philippines. (neighbouring Countries)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/MwH.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "fold": ["Japan", "South Korea", "Philippines"],
+      "as": ["Country", "Value"]
+    }
+  ],
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": "MhW",
+          "scale": {"domain": [36, 46]},
+          "axis": {"grid": true, "tickCount": 6}
+        },
+        "color": {"field": "Country", "type": "nominal", "title": "Country"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 40,
+        "dy": 150,
+        "fontSize": 10,
+        "fontStyle": "italic"
+      },
+      "encoding": {"text": {"value": "Source: ILO statistics"}}
+    }
+  ],
+  "config": {}
+}
