@@ -1,0 +1,396 @@
+[
+    {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 24,
+        "sourceid": "2",
+        "lastupdated": "2024-11-13"
+    },
+    [
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2023",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2022",
+            "value": 81.266,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2021",
+            "value": 80.639,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2020",
+            "value": 80.296,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2019",
+            "value": 80.242,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2018",
+            "value": 79.455,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2017",
+            "value": 78.209,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2016",
+            "value": 77.423,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2015",
+            "value": 76.498,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2014",
+            "value": 76.086,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2013",
+            "value": 75.326,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2012",
+            "value": 74.419,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2011",
+            "value": 74.322,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2010",
+            "value": 74.413,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2009",
+            "value": 74.349,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2008",
+            "value": 74.244,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2007",
+            "value": 74.047,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2006",
+            "value": 73.612,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2005",
+            "value": 73.136,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2004",
+            "value": 72.72,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2003",
+            "value": 72.729,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2002",
+            "value": 72.731,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2001",
+            "value": 73.009,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "SL.TLF.ACTI.ZS",
+                "value": "Labor force participation rate, total (% of total population ages 15-64) (modeled ILO estimate)"
+            },
+            "country": {
+                "id": "JP",
+                "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2000",
+            "value": 72.86,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]
