@@ -81,7 +81,7 @@
                 Unemployment rates in Japan 
             </p>
         </div>
-        <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="kad"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     <section\>
 
     <section>
@@ -144,14 +144,16 @@
         let J2nos_spec = "J2Nos.json";
         let mhw_spec = "MhW.json";
         let oh_spec = "OH.json";
-        let tn_spec = "tn.json"
+        let tn_spec = "tn.json";
+        let kad_spec = "kad.json"
 
 
         vegaEmbed('#lpr', lpr_spec, {"actions": true});
         vegaEmbed('#J2nos', J2nos_spec, {"actions": true});
         vegaEmbed('#mhw', mhw_spec, {"actions": true});
         vegaEmbed('#oh', oh_spec, {"actions": true});
-        vegaEmbed('#tn', tn_spec, {"actions": true})
+        vegaEmbed('#tn', tn_spec, {"actions": true});
+        vegaEmbed('#kad', kad_spec, {"actions": true})
 
         // Do you want to add more graphs?
         // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
