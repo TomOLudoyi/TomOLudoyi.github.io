@@ -12,8 +12,8 @@
   "height": 250,
   "width": "container",
   "autosize": {"type": "fit", "contains": "padding", "resize": false},
-  "background": "#ffffff",
-  "view": {"fill": "#ffffff", "strokeOpacity": 0},
+  "background": "transparent",
+  "view": {"fill": "transparent", "strokeOpacity": 0},
   "data": {
     "url": "https://api.economicsobservatory.com/gbr/prod?vega",
     "format": {"type": "json"}

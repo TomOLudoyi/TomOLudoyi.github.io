@@ -24,7 +24,7 @@
 
     <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
     <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="CC.css">
     <title>Tom's Project</title> <!-- The title displayed in the browser tab, not on the page itself -->
 
     <!-- This is a link to the vega-lite which we're using to make graphs -->
@@ -45,30 +45,34 @@
         }
         
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
 </head>
 
 <body> 
 <!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
+    <h10 style="margin-bottom: -50px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        Tom Oludoyi
-    </h1>
-    <p style="margin-top: 0px; color: darkblue">
+        The impact of overworking in Japan 
+    </h10>
+    <h9> By Tomiwa Oludoyi</h9>
+    <p class ="Button" style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        <a href="http://127.0.0.1:5500/CC/CC.html">Portfolio</a> | <a href="https://www.linkedin.com/in/oluwamuretomiwa-oludoyi-0742b0257/">LinkedIn</a> | <a
+        <a href="https://tomoludoyi.github.io/CC/CC.html">Portfolio</a> | <a href="https://www.linkedin.com/in/oluwamuretomiwa-oludoyi-0742b0257/">LinkedIn</a> | <a
             href="https://github.com/TomOLudoyi">GitHub</a>
     </p>
-    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
-    </h3>
 
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
     <section>
         <div class="chart-description">
-            <h2>Section 1: A basic chart</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description. Here, we can describe the chart and give some context.
-                As a first example, we're using a basic chart from our repo.
+            <h11>Aims: </h11>
+            <p class ="small2"> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                In this project, I am aiming to explore the impact of overworking in Japan. ‘Karoshi’ translated to ‘death from overworking’, relates to any mental illnesses developed and fatal cases due to over working.
+                The first case of Karoshi was reported in 1960 due to the death of a 29-year-old male worker. As time went on, Labour force surveys shows that the that males were working over 60 hours per week (50% above the standardised 40 hour working week) which could lead to more death due to work. Japanese authorities decided to set up a hotline to help support the affected workers. This was called the <a href="https://karoshi.jp/english/">'Karoshi Hotline National Network'</a> 
+
             </p>
         </div>
         <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -76,12 +80,27 @@
 
     <section>
         <div class="chart-description">
-            <h2>Section 2: Japan unemployment rates</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                Unemployment rates in Japan 
+            <h11>Data:</h11>
+            <p class ="small2"> 
             </p>
         </div>
-        <figure id="kad"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    <section\>
+
+    <section>
+        <div class="chart-description">
+            <h2>  </h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+            Data was then recorded from 1988 – 2007. To retrieve this data I had to scrape the website using BeautifulSoup. Challenges I faced during my scraping session was that data was mixed between annually and biannually and there was a column which I did not need (Tokyo)  
+            </p>
+            <figure id="kad"></figure>
+        </div>
+        <div class="chart-description">
+            <p class="Button">
+                <a href="https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/kad.csv">Data</a>
+            </p>
+        </div>
+         <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     <section\>
 
     <section>
@@ -123,10 +142,34 @@
             <h2>CC9: Loops</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 - ONs api
-                <a href="https://colab.research.google.com/drive/1TFf5Ya8ZZDRI5jdiRVhXqFOaFpaOKh_K?usp=sharing">Google Colab notebook</a>
+            </p>
+            <figure id="lpr"></figure>
+        </div>
+        <div>
+            <p class=" Button">
+                <a href="https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/Lpr2.csv">Data</a>
             </p>
         </div>
-        <figure id="lpr"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    <section\>
+
+    <section>
+        <div class="chart-description">
+            <h11>Challenges in this Project</h11>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                - ONs api
+                <a href="https://colab.research.google.com/drive/1TFf5Ya8ZZDRI5jdiRVhXqFOaFpaOKh_K?usp=sharing">Google Colab notebook</a>
+            </p>
+        </div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    <section\>
+
+    <section>
+        <div class="chart-description">
+            <h11>Conclusion</h11>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                - ONs api
+                <a href="https://colab.research.google.com/drive/1TFf5Ya8ZZDRI5jdiRVhXqFOaFpaOKh_K?usp=sharing">Google Colab notebook</a>
+            </p>
+        </div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     <section\>
 
 

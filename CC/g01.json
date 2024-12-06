@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": {
     "text": "Comparing Labour Participation rates, Lpr, of 10 Countries",
     "subtitle": [

@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Renewables",
+    "text": "Unemployment rate ",
     "anchor": "start",
-    "subtitle": "Output, GWh, | IEA via ECO-API",
-    "fontSize": 15,
-    "subtitleFontSize": 9,
+    "subtitle": "Source: JSB (WB) through ECO API",
+    "fontSize": 14,
+    "subtitleFontSize": 8,
     "color": "#000000",
     "subtitleColor": "#000000"
   },
@@ -15,20 +15,24 @@
   "background": "transparent",
   "view": {"fill": "transparent", "strokeOpacity": 0},
   "data": {
-    "url": "https://api.economicsobservatory.com/gbr/rGWh?vega",
+    "url": "https://api.economicsobservatory.com/jpn/unem?vega",
     "format": {"type": "json"}
   },
-  "mark": {"type": "line", "color": "#f4134d", "strokeWidth": 2},
+  "mark": {"type": "bar", "color": "#0091ff", "strokeWidth": 2},
   "encoding": {
     "x": {
       "field": "date",
       "type": "temporal",
-      "axis": {"title": "Year", "titleColor": "#122B39", "grid": false}
+      "axis": {"title": "Years", "titleColor": "#122B39", "grid": false}
     },
     "y": {
       "field": "value",
       "type": "quantitative",
-      "axis": {"title": "Output (GWh)", "titleColor": "#122B39", "grid": false}
+      "axis": {
+        "title": "Unemployment rate ",
+        "titleColor": "#122B39",
+        "grid": false
+      }
     }
   },
   "config": {}

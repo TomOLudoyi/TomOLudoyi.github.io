@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": {
     "text": "Nigeria's Federated States",
     "subtitle": ["Total of 36 states and 1 territory", ""],

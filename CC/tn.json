@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": "Trend Between Total suicides and Work-Related Suicides, 1978-2022",
   "data": {
     "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/Tns.csv",

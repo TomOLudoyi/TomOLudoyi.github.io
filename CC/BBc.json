@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": "Top ten non-UK countries of birth in 2021 and 2011",
   "data": {
     "url": "https://raw.githubusercontent.com/TomOLudoyi/TomOLudoyi.github.io/refs/heads/main/BBC_3.csv",

@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": {
     "text": "Total Crimes Commited, '00 ",
     "subtitle": ["Per state, 2022", "Source: Ministry of Police Affairs"],

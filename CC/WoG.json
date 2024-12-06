@@ -1,5 +1,6 @@
 {
   "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "background": "transparent",
   "layer": [
     {
       "data": {"name": "data-7abe81ee9fa06a7801990c0f8d2300a6"},
