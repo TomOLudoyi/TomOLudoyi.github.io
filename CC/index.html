@@ -31,6 +31,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="https://www.mybib.com/e/script" bibliography="L5Aewp"></script>
 
     <style>
         #chartGrid {
@@ -59,6 +60,7 @@
         The impact of overworking in Japan 
     </h10>
     <h9> By Tomiwa Oludoyi</h9> 
+
     <div class="small2">
     <p class ="Button" style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
@@ -72,8 +74,11 @@
         <div class="chart-description">
             <h11>Aims: </h11>
             <p class ="small2"> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                In this project, I am aiming to explore the impact of overworking in Japan. ‘Karoshi’ translated to ‘death from overworking’, relates to any mental illnesses developed and fatal cases due to over working.
-                The first case of Karoshi was reported in 1960 due to the death of a 29-year-old male worker. As time went on, Labour force surveys shows that the that males were working over 60 hours per week (50% above the standardised 40 hour working week) which could lead to more death due to work. Japanese authorities decided to set up a hotline to help support the affected workers. This was called the Karoshi Hotline National Network. 
+                <br>The aim of this project is to explore the impact of overworking in Japan, focusing on "Karoshi," which translates to "death from overworking." Karoshi encompasses fatal cases and mental illnesses caused by excessive working hours.<br>
+
+                <br>The first reported case of Karoshi occurred in 1960 with the death of a 29-year-old male worker. Over the years, labour force surveys have highlighted alarming trends, showing that many male workers were regularly working over 60 hours per week, 50% above the standard 40-hour workweek, leading to increased risks of death and severe health impacts.<br>
+
+                <br>In response, Japanese authorities introduced the Karoshi Hotline National Network to support affected workers and raise awareness of the issue. This project aims to analyse historical trends, identify high-risks and ultimately shed light on how overworking continues to shape Japanese society and workplace culture.<br>
 
             </p>
         </div>
@@ -133,7 +138,7 @@
         <div class="chart-description">
             <h2></h2>
             <p class="small2"> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                This graph displays work-related suicides in Japan (2014–2023). After a steady decline from 2014 to 2020, cases rose sharply in 2021, peaking in 2022, could be due to COVID-19 taking its mental toll 
+                This graph displays work-related suicides in Japan (2014–2023). After a steady decline from 2014 to 2020, cases rose sharply in 2021, peaking in 2022, could be due to overworking and quarantine taking its mental toll on workers. 
             </p>
             <figure id="J2nos"></figure>
         </div>
@@ -154,19 +159,31 @@
     <section>
         <div class="chart-description">
             <h11>Challenges in this Project</h11>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                - ONs api
-                <a href="https://colab.research.google.com/drive/1TFf5Ya8ZZDRI5jdiRVhXqFOaFpaOKh_K?usp=sharing">Google Colab notebook</a>
+            <p class="small2"> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                <br>While working on this project, collecting all the required data was quite challenging. For instance, when comparing labor participation rates, I needed to retrieve API data for 10 countries and use loops to gather information simultaneously. Figuring out the first loop was the hardest part, but once I got it working, I was able to reuse the code since the data shared the same table format.<br>
+
+                <br>Scraping data for Karoshi calls was particularly difficult because the data was a mix of annual and biannual records. To address this, I used a loop to separate the data by year, extracted the year values, and summed up the entries for the same years.<br>
+
+                <br>Finding data on Karoshi was exhausting, as much of it predates the internet and is scarce. However, previous studies on this topic were invaluable in helping me compile data and create credible charts.<br>
+            </p>
+        </div>
+    <section\>
+
+    <section>
+        <div class="chart-description">
+            <h11>Conclusion</h11>
+            <p class="small2">
+                The analysis of overworking in Japan highlights the ongoing challenges posed by excessive working hours and their severe health and societal impacts. Visualisations of trends in working hours, health outcomes, and labour participation rates have provided valuable insights into the factors contributing to "Karoshi". Overworking in Japan is still a massive pheonomeon and still may need further studies and the Japanese government to intervene for Yearly Karoshi rates to reduce.
             </p>
         </div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     <section\>
 
     <section>
         <div class="chart-description">
-            <h11>Conclusion</h11>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                - ONs api
-                <a href="https://colab.research.google.com/drive/1TFf5Ya8ZZDRI5jdiRVhXqFOaFpaOKh_K?usp=sharing">Google Colab notebook</a>
+            <h11>References: </h11>
+            <p class="small2">
+                <a class="Button" href="https://www.mybib.com/b/L5Aewp">View Bibliography</a>
+
             </p>
         </div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
     <section\>
@@ -205,6 +222,7 @@
 
 
     </script>
+    
 
 </body>
     
