@@ -157,11 +157,13 @@ h11 {
 
 .small2 {
   font-size: 1.1em;
-  align-items: center;
-  justify-content: center;
-  text-align: justify;
-  text-justify: inter-word;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  height: 100%; 
 }
+
 
 .container {
   display: flex;

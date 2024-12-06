@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": "Mean hours worked weekly, MhW",
   "description": "Multi-series Line Chart with separate lines for Japan, South Korea, and the Philippines. (neighbouring Countries)",
   "data": {
