@@ -8,14 +8,14 @@ This repository contains my technical projects, from raw data ingestion to stati
 
 ## Featured Projects
 
-### 1. [The Economics of Time Pressure : A Lichess Analysis](./CC/Chess-Project/)
+### 1. [The Economics of Time Pressure : A Lichess Analysis](./Chess-Project/)
 **Focus:** Data Analysis, Statistical Modeling, Data Visualization
 * **The Pitch:** What happens to human decision-making under severe time pressure?  
 To figure this out, I took 324,700 raw chess moves and used `python-chess` and `pandas`.
 
 * **The Tech:** Ran a multivariable logistic regression (Logit) using `statsmodels` to isolate the impact of the clock, and visualized the "Higher They Fall" behavioral effect using `seaborn` and `matplotlib`.
 
-### 2. [Automated NBA Data Pipeline & LLM Summarisation](./CC/NBA-Pipeline/)
+### 2. [Automated NBA Data Pipeline & LLM Summarisation](./NBA-Pipeline/)
 **Focus:** ETL Pipelines, API Integration, Automated Reporting
 * **The Pitch:** An automated script that pulls live NBA data and turns it into human-readable tweets. 
 
