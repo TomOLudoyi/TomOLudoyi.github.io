@@ -1,7 +1,43 @@
-TomOLudoyi.github.io
+#  Data Analytics & Econometrics Portfolio
 
-https://tomoludoyi.github.io/CC/CC.html  - Portfolio
+Hi I'm Oluwamuretomiwa Oludoyi
 
-https://tomoludoyi.github.io/CC/index.html - Project
+I am an Economics and Econometrics graduate from the University of Bristol, transitioning into data analytics. I train in data manipulation, statistical analysis to extract actionable insights from unstructured data. 
 
-https://tomoludoyi.github.io/CC/nba/nba.html - Nba Pipeline
+This repository contains my technical projects, from raw data ingestion to statistical inference and automated reporting.
+
+## Featured Projects
+
+### 1. [The Economics of Time Pressure : A Lichess Analysis](./CC/Chess-Project/)
+**Focus:** Data Analysis, Statistical Modeling, Data Visualization
+* **The Pitch:** What happens to human decision-making under severe time pressure?  
+To figure this out, I took 324,700 raw chess moves and used `python-chess` and `pandas`.
+
+* **The Tech:** Ran a multivariable logistic regression (Logit) using `statsmodels` to isolate the impact of the clock, and visualized the "Higher They Fall" behavioral effect using `seaborn` and `matplotlib`.
+
+### 2. [Automated NBA Data Pipeline & LLM Summarisation](./CC/NBA-Pipeline/)
+**Focus:** ETL Pipelines, API Integration, Automated Reporting
+* **The Pitch:** An automated script that pulls live NBA data and turns it into human-readable tweets. 
+
+* **The Tech:** Built a robust Python ETL pipeline using asynchronous requests.  
+
+When the NBA's bot-protection blocked my IP, I engineered an exponential backoff system and an offline mock-data architecture to bypass the rate limits. Used OpenAI's API to generate the final summaries.
+
+### 3. [The Karoshi Project: Socio-Economic Analysis of Overwork](https://tomoludoyi.github.io/CC/index.html)
+**Focus:** Data Communication, Economic Research, Web-Based Reporting
+* **The Pitch:** An interactive web report exploring the macroeconomic drivers of overwork in Japan.
+
+* **The Tech:** Used API data retrieval and regression analysis to build the foundation, then translated those complex econometric findings into an accessible, HTML-based presentation for non-technical readers.
+* *[Check out the live interactive report here](https://tomoludoyi.github.io/CC/index.html).*
+
+## 🛠️ My Toolkit
+* **Languages:** Python, Microsoft Excel, Stata, HTML, LaTeX
+* **Data Engineering:** Pandas, NumPy, RESTful APIs, JSON parsing, ETL pipelines
+* **Analytics:** Multivariable Regression, Logistic Regression, Maximum Likelihood Estimation, Time Series
+* **Visualization:** Matplotlib, Seaborn
+
+---
+### Let's Connect
+* **LinkedIn:** [Oluwamuretomiwa Oludoyi](https://www.linkedin.com/in/oluwamuretomiwa-oludoyi-0742b0257/)
+* **Email:** toludoyi@outlook.com
+
