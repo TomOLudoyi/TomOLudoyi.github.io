@@ -8,9 +8,11 @@ This repository contains my technical projects, from raw data ingestion to stati
 
 ## Quick links: Just the code
 If you are short on time, here are the direct links to the core scripts and notebooks for my primary projects:
+ 
+* **[Lichess Analytics Notebook](./Chess-Project/Cl_lichess.ipynb)**: Python notebook processing large-scale chess datasets to evaluate blunder rates under time pressure.
 
 * **[NBA Pipeline Notebook](./NBA-Pipeline/Cl_NBA_pipeline.ipynb)**: Python/pandas script for automated API extraction, exponential backoff, and formatting.
-* **[Lichess Analytics Notebook](./Chess-Project/Cl_lichess.ipynb)**: Python notebook processing large-scale chess datasets to evaluate blunder rates under time pressure.
+
 * **[Karoshi Econometric Study](./CC/index.html)**: Interactive HTML regression analysis on Japan's socio-economic overwork data.
 
 ## Featured Projects
