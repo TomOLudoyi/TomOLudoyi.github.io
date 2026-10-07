@@ -36,7 +36,7 @@ Built a robust Python ETL pipeline using pandas and REST APIs. When the NBA's bo
 * **The Pitch:** An interactive web report exploring the macroeconomic drivers of overwork in Japan.
 
 * **The Tech:** Used API data retrieval and regression analysis to build the foundation, then translated those complex econometric findings into an accessible, HTML-based presentation for non-technical readers.
-* *[Check out the live interactive report here](https://tomoludoyi.github.io/CC/index.html).*
+
 
 ## My Toolkit
 * **Languages:** Python, Microsoft Excel, Stata, HTML, LaTeX
