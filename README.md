@@ -31,7 +31,7 @@ To figure this out, I took 324,700 raw chess moves and used `python-chess` and `
 * **The Tech:** 
 Built a robust Python ETL pipeline using pandas and REST APIs. When the NBA's bot-protection blocked my IP, I engineered an exponential backoff system and an offline mock-data architecture to bypass the rate limits and format the final payload.
 
-### 3. [The Karoshi Project: Socio-Economic Analysis of Overwork](./CC/index.html)
+### 3. [The Karoshi Project: Socio-Economic Analysis of Overwork](https://tomoludoyi.github.io/CC/index.html)
 **Focus:** Data Communication, Economic Research, Web-Based Reporting
 * **The Pitch:** An interactive web report exploring the macroeconomic drivers of overwork in Japan.
 
